@@ -1,0 +1,3 @@
+[submodule "ExpenseTrackerManagementSystem"]
+	path = ExpenseTrackerManagementSystem
+	url = https://github.com/Mmonali99/ExpenseTrackerManagementSystem
