@@ -1,0 +1,40 @@
+button {
+    cursor: pointer;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: inherit; /* Ensures it follows global font */
+    transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Submit Button Styling */
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    background: #000;
+    color: #fff;
+    margin-top: 15px;
+    text-align: center;
+}
+
+/* Hover Effect */
+button[type="submit"]:hover {
+    background: #fff;
+    color: #000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+/* Disabled Button */
+button:disabled {
+    background: #d3d3d3;
+    color: #777;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+/* Active Click Effect */
+button:active {
+    transform: scale(0.98);
+}

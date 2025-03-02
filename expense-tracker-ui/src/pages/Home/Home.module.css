@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  width: 100%;
+}
+
+.authBox {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  max-width: 90%;
+  text-align: center;
+}
+
+.toggleContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.toggleButton {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background: #ddd;
+}
+
+.toggleButton.active {
+  background: #2c3e50;
+  color: white;
+}
+
+.formContainer {
+  margin-top: 10px;
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+.message {
+  color: #28a745; /* Green for success/positive message */
+  font-weight: bold;
+  margin-bottom: 20px;
+}

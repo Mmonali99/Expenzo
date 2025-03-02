@@ -1,0 +1,144 @@
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.filterSection {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.filterSection button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.expenseList {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.expenseList th,
+.expenseList td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.expenseList th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.innerTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 5px;
+}
+
+.innerTable th,
+.innerTable td {
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: left;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.editButton,
+.deleteButton {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+.editButton {
+  background-color: #007bff;
+  color: white;
+}
+
+.deleteButton {
+  background-color: #dc3545;
+  color: white;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modal label {
+  font-weight: bold;
+}
+
+.modal input,
+.modal textarea,
+.modal select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.modal button {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal button:first-of-type {
+  background-color: #007bff;
+  color: white;
+}
+
+.modal button:last-of-type {
+  background-color: #dc3545;
+  color: white;
+}
+
+.itemRow {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.itemRow input,
+.itemRow select {
+  flex: 1;
+}
