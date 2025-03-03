@@ -34,5 +34,5 @@ Expenzo is a full-stack web application designed to help users track their expen
 ### Backend Setup
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/expenzo.git
+   git clone https://github.com/Mmonali99/expenzo.git
    cd expenzo/backend
